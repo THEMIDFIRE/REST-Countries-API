@@ -75,7 +75,7 @@ function Countries() {
                                         <div className="inner">
                                             <img src={country.flags?.png} alt={country.name?.common || 'Country flag'} className='w-screen aspect-video object-cover' />
                                             <div className="countryInfo px-4 pt-6 pb-9">
-                                                <h3 className='mb-4'>{country.name?.common || 'Unknown Country'}</h3>
+                                                <h2 className='mb-4'>{country.name || 'Unknown Country'}</h2>
                                                 <p>Population: <span className='font-light'>{country.population?.toLocaleString() || 'N/A'}</span></p>
                                                 <p>Region: <span className='font-light'>{country.region || 'N/A'}</span></p>
                                                 <p>Capital: <span className='font-light'>{country.capital?.[0] || 'N/A'}</span></p>
