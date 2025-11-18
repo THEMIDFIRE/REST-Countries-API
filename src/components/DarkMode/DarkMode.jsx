@@ -16,7 +16,7 @@ function DarkMode() {
         <>
             <header className='shadow-xl dark:bg-gray-700 py-6'>
                 <div className="container max-w-4/5 mx-auto flex justify-between">
-                    <h2 className='text-2xl font-extrabold'>Where in the world?</h2>
+                    <h1 className='text-2xl font-extrabold'>Where in the world?</h1>
                     <button className="cursor-pointer flex items-center" on onClick={toggleMode}>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
